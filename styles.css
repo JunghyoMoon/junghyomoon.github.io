@@ -1,0 +1,27 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+form {
+	width: 50%;
+	border: 2px solig black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form > input {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+form > button {
+	width: 70px;
+}
